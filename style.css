@@ -109,7 +109,19 @@ body {
 }
 
 @media screen and (max-width: 425px) {
+  .card {
+    width: 80%;
+  }
   .search input {
     width: 50%;
+  }
+
+  .details,
+  .col {
+    flex-direction: column;
+  }
+
+  .col img {
+    margin: 1rem auto;
   }
 }
